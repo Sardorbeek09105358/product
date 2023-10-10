@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.blog {
+  width: 100%;
+  margin-top: 120px;
+}
+.blog h1 {
+  text-align: center;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../font-family/Poppins-Bold.ttf);
+}
+.blog h3 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../font-family/Poppins-Bold.ttf);
+}
+.blog .blog-content {
+  width: 80%;
+  margin: 60px auto;
+  padding-left: 220px;
+}
+.blog .blog-content h4 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../font-family/Poppins-Bold.ttf);
+}
+.blog .blog-content h4 .blog-icon {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 3px;
+  color: #444;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #02897A;
+  margin-right: 10px;
+}
+.blog .blog-content p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../font-family/Poppins-Bold.ttf);
+}
+.blog .blog-content hr {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 30px;
+  color: #444;
+  background-color: #444;
+}
+.blog .blog-content .text {
+  color: #444;
+}
+
+.content-product {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.content-product .content-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #02897A;
+  border-radius: 32px;
+}
+.content-product .content-product-card {
+  width: 50%;
+}
+.content-product .content-product-card h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.4%;
+  margin-bottom: 20px;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../font-family/Poppins-Bold.ttf);
+}
+.content-product .content-product-card .content-btn {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FFF;
+  color: #444;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 12px;
+  font-family: "Popins";
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../font-family/Poppins-Bold.ttf);
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .blog {
+    width: 100%;
+  }
+  .blog h1 {
+    font-size: 30px;
+  }
+  .blog p {
+    font-size: 24px;
+  }
+  .blog .blog-content {
+    width: 100%;
+  }
+  .blog .blog-content h4 {
+    font-size: 14px;
+  }
+  .blog .blog-content p {
+    font-size: 13px;
+  }
+  .content-product {
+    width: 100%;
+  }
+  .content-product .content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 30px;
+  }
+  .content-product .content-container .content-product-card h2 {
+    font-size: 25px;
+  }
+  .content-product .content-container .content-product-card .content-btn {
+    width: 180px;
+    height: 40px;
+  }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+  .blog {
+    width: 100%;
+  }
+  .blog h1 {
+    font-size: 24px;
+  }
+  .blog p {
+    font-size: 20px;
+  }
+  .blog .blog-content {
+    width: 90%;
+    padding-left: 30px;
+  }
+  .blog .blog-content h4 {
+    font-size: 14px;
+  }
+  .blog .blog-content p {
+    font-size: 13px;
+  }
+  .blog .blog-content hr {
+    width: 100%;
+  }
+  .content-product {
+    width: 100%;
+  }
+  .content-product .content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 35px;
+  }
+  .content-product .content-container .content-product-card h2 {
+    font-size: 22px;
+  }
+  .content-product .content-container .content-product-card .content-btn {
+    width: 140px;
+    height: 40px;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .blog {
+    width: 100%;
+  }
+  .blog h1 {
+    font-size: 20px;
+  }
+  .blog p {
+    font-size: 14px;
+  }
+  .blog .blog-content {
+    width: 90%;
+    padding-left: 30px;
+  }
+  .blog .blog-content h4 {
+    font-size: 14px;
+  }
+  .blog .blog-content p {
+    font-size: 13px;
+  }
+  .blog .blog-content hr {
+    width: 100%;
+  }
+  .content-product {
+    width: 100%;
+  }
+  .content-product .content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 35px;
+  }
+  .content-product .content-container .content-product-card {
+    padding-top: 20px;
+  }
+  .content-product .content-container .content-product-card h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .content-product .content-container .content-product-card .content-btn {
+    width: 140px;
+    height: 40px;
+    margin: auto;
+  }
+}
+@media (max-width: 447px) {
+  .blog {
+    width: 100%;
+  }
+  .blog h1 {
+    font-size: 20px;
+  }
+  .blog p {
+    font-size: 14px;
+  }
+  .blog .blog-content {
+    width: 90%;
+    padding-left: 30px;
+  }
+  .blog .blog-content h4 {
+    font-size: 14px;
+  }
+  .blog .blog-content p {
+    font-size: 13px;
+  }
+  .blog .blog-content hr {
+    width: 100%;
+  }
+  .content-product {
+    width: 100%;
+  }
+  .content-product .content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 35px;
+  }
+  .content-product .content-container .content-product-card {
+    padding-top: 20px;
+  }
+  .content-product .content-container .content-product-card h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .content-product .content-container .content-product-card .content-btn {
+    width: 140px;
+    height: 40px;
+    margin: auto;
+  }
+}/*# sourceMappingURL=blog.css.map */

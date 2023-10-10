@@ -1,0 +1,274 @@
+@import url(./main.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #37474f;
+    scroll-behavior: smooth;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .main-container{
+        width: 100%;
+        height: 320px;
+        padding-top: 80px;
+        text-align: center;
+        background: #22343D;
+        h3{
+            color: #FFF;
+            font-family: 'Poppins';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+            @font-face {
+                font-family: 'Poppins';
+                src: url(../font-family/Poppins-Black.ttf);
+            }
+        }
+        h1{
+            color: #FFF;
+            font-family: 'Poppins';
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 20px;
+            @font-face {
+                font-family: 'Poppins';
+                src: url(../font-family/Poppins-Black.ttf);
+            }
+        }
+        p{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 15px;
+            @font-face {
+                font-family: 'Poppins';
+                src: url(../font-family/Poppins-Black.ttf);
+            }
+        }
+        .main-btn{
+            display: inline-block;
+            width: 300px;
+            height: 50px;
+            padding-top: 15px;
+            text-decoration: none;
+            color: #FFF;
+            text-transform: capitalize;
+            border-radius: 8px;
+            background: #02897A;
+            color: #FFF;
+            font-family: 'Montserrat';
+            font-size: 18px;
+            font-weight: 600;
+            @font-face {
+                font-family: 'Montserrat';
+                src: url(../montserrat-font-family/static/Montserrat-Bold.ttf);
+            }
+        }
+    }
+    section{
+        width: 100%;
+        margin-top: 100px;
+        h1{
+            color: #FFF;
+            font-family: 'Poppins';
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 20px;
+            @font-face {
+                font-family: 'Poppins';
+                src: url(../font-family/Poppins-Bold.ttf);
+            }
+        }
+        .section-container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+            .section-item{
+                h2{
+                    color: #FFF;
+                    font-family: 'Poppins';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    @font-face {
+                        font-family: 'Poppins';
+                        src: url(../font-family/Poppins-Bold.ttf);
+                    }
+                    img{
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                }
+                p{
+                    color: #FFF;
+                    font-family: 'Poppins';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin-bottom: 30px;
+                    @font-face {
+                        font-family: 'Poppins';
+                        src: url(../font-family/Poppins-Medium.ttf);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 900px){
+    main{
+        width: 100%;
+        .main-container{
+            padding-top: 60px;
+            h3{
+                font-size: 16px;
+            }
+            h1{
+                font-size: 26px;
+            }
+            p{
+                font-size: 12px;    
+            }
+            .main-btn{
+                width: 250px;
+                height: 40px;
+                padding-top: 10px;
+            }
+        }
+        section{
+            width: 100%;
+            h1{
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 447px) and (max-width: 769px){
+    main{
+        width: 100%;
+        .main-container{
+            padding-top: 50px;
+            h3{
+                font-size: 14px;
+            }
+            h1{
+                font-size: 22px;
+            }
+            p{
+                font-size: 12px;    
+            }
+            .main-btn{
+                width: 200px;
+                height: 40px;
+                font-size: 14px;
+                padding-bottom: 30px;
+            }
+        }
+        section{
+            width: 100%;
+            padding: 0 20px;
+            h1{
+                font-size: 23px;
+            }
+            .section-item{
+                h2{
+                    font-size: 18px;
+                }
+                img{
+                    margin-right: 5px;
+                }
+                p{
+                    font-size: 13px;
+                }
+                .section-img{
+                    width: 360px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 447px){
+    main{
+        width: 100%;
+        .main-container{
+            padding-top: 50px;
+            h3{
+                font-size: 14px;
+            }
+            h1{
+                font-size: 22px;
+            }
+            p{
+                font-size: 12px;    
+            }
+            .main-btn{
+                width: 200px;
+                height: 40px;
+                font-size: 14px;
+                padding-bottom: 30px;
+            }
+        }
+        section{
+            width: 100%;
+            padding: 0 20px;
+            h1{
+                font-size: 23px;
+            }
+            .section-item{
+                h2{
+                    font-size: 18px;
+                }
+                img{
+                    margin-right: 5px;
+                }
+                p{
+                    font-size: 13px;
+                }
+                .section-img{
+                    width: 360px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
